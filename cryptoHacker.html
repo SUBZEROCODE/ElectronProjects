@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+  <html>
+    <head>
+      <title>Cipher Solver</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+
+      <script type="text/javascript" src="jquery-min.js" onload="window.$ = window.jQuery = module.exports;">
+
+      //Overcome electron "module" problems with jquery.
+      </script>
+
+	  </head>
+
+    <body>
+      <H1 id = "largeTitle" class= "central">Cryptographic Cipher Solver</H1>
+	    <div id = "solver">
+      <table><tr>
+
+      <script>
+
+        require('./initSelectboxes.js')
+
+      </script>
+
+      </table></div></br>
+
+      <div id = "guesszone" class="zone"><input type="text" name="guessInput" value="Try to guess?" id="guessInput"  /></div>
+	    <div id = "gamezone" class="zone" value="VDYQWII">Ciphertext: VDYQWII</div>
+	    <div id = "printzone" class="zone" value=""></div>
+
+	    <div id = "testzone" class="zone">For testing purposes</div>
+
+	    <input type="hidden" id="hiddenCipherText" value="CARDIFF">
+
+      <script>
+        require('./hacker.js')
+      </script>
+
+	  </body>
+</html>

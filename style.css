@@ -1,0 +1,64 @@
+#printzone{
+
+	background-color:yellow;
+	margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+	text-align:center;
+}
+
+#testzone{
+
+	background-color:blue;
+	margin-left: auto;
+    	margin-right: auto;
+    	width: 30em;
+	text-align:center;
+}
+
+#gamezone{
+
+	background-color:purple;
+}
+
+#originalzone{
+
+	background-color:green;
+}
+
+.zone{
+
+	margin-left: auto;
+    	margin-right: auto;
+    	width: 30em;
+	text-align:center;
+	font-size:30pt;
+}
+
+.cipher{
+
+	background-color:red;
+	text-align:center;
+	width:10em;
+}
+
+.plain{
+
+	background-color:grey;
+	text-align:center;
+	width:10em;
+
+}
+
+.central{
+	text-align:center;
+
+}
+
+#largeTitle{
+}
+
+#guessBtn{
+
+	background-color:blue;
+}

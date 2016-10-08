@@ -1,0 +1,15 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "Web app to solve simple block ciphers",
+  "main": "hacker.js",
+  "scripts": {
+    "start": "electron electronRunner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Electron"
+  },
+  "author": "Sean James",
+  "license": "ISC"
+}
